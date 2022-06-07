@@ -15,7 +15,7 @@ app.use(express.json());
 const port = process.env.PORT || 4000;
 
 app.use(cors({
-    origin: 'https://annon-thoughts.netlify.app/',
+    origin: 'https://annon-thoughts.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
